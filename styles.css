@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    color: green;
+    font-family: monospace;
+}
+
+#matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#time {
+    font-size: 4em;
+    white-space: nowrap;
+}
+
+#hour, #minute, #second {
+    display: inline-block;
+    width: 3em;
+    text-align: center;
+}
